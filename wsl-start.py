@@ -1,6 +1,7 @@
 import os
 import time
 
+os.system("clear")
 print("""
                    __                          __        __                 
                   /  |                        /  |      /  |                
@@ -42,8 +43,20 @@ os.system('echo "nameserver 8.8.8.8" | tee /etc/resolv.conf')
 print("Nameserver has successfull changed")
 time.sleep(1)
 os.system("clear")
-os.system("cd /home/kali/")
-print("You are now")
+os.system("cd /home/*")
+print("You are now: ")
 os.system("whoami")
-print("Happy Hacking!")
+print("""
+
+    )                            )                              
+ ( /(                         ( /(             )                
+ )\())   )             (      )\())   )     ( /((        (  (   
+((_)\ ( /( `  )  `  )  )\ )  ((_)\ ( /(  (  )\())\  (    )\))(  
+ _((_))(_))/(/(  /(/( (()/(   _((_))(_)) )\((_)((_) )\ )((_))\  
+| || ((_)_((_)_\((_)_\ )(_)) | || ((_)_ ((_) |(_|_)_(_/( (()(_) 
+| __ / _` | '_ \) '_ \) || | | __ / _` / _|| / /| | ' \)) _` |  
+|_||_\__,_| .__/| .__/ \_, | |_||_\__,_\__||_\_\|_|_||_|\__, |  
+          |_|   |_|    |__/                             |___/
+
+""")
 os.system("sudo su")
