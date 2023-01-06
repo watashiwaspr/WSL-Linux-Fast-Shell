@@ -5,7 +5,7 @@ With this scripts, you will open your WSL shell faster
 Copy to somewhere easy to execute. This will start WSL
 
 # start.sh
-At first you have to move start.sh to /usr/bin/start 
+At first you have to move start.sh to /usr/bin/start to execute it by just typing `start` on the terminal 
 `mv start.sh /usr/bin/start`
 
 # wsl-start.py
